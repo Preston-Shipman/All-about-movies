@@ -9,8 +9,8 @@ class Review extends React.Component{
   }
 
   render() {
-    var divElem = $('<div>');
-    var anchorElem = $('<a>').attr({ 'href': this.url, 'target': '_blank' }).text(this.headline);
+    let divElem = $('<div>');
+    let anchorElem = $('<a>').attr({ 'href': this.url, 'target': '_blank' }).text(this.headline);
     divElem.append(anchorElem);
     $('.modalReviewsBox').append(divElem);
   }

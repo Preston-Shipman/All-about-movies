@@ -17,7 +17,7 @@ class MovieResult extends React.Component {
   }
 
   getMovieInfo() {
-    var ajaxConfigObject = {
+    let ajaxConfigObject = {
       dataType: 'json',
       url: 'http://www.omdbapi.com/?i=tt3896198&apikey=6c2d937e',
       method: 'GET',
@@ -32,13 +32,13 @@ class MovieResult extends React.Component {
 
   processOmdbResponse(response) {
     $('.resultContainer').empty();
-    for (var i = 0; i < response.Search.length; i++) {
-      var movieTitle = response.Search[i].Title;
-      var movieType = response.Search[i].Type;
-      var releaseYear = response.Search[i].Year;
-      var moviePoster = response.Search[i].Poster;
-      var makeMovieClass = new Movie(movieTitle, movieType, releaseYear, moviePoster, this.displayModal);
-      var moviePosterParentDiv = makeMovieClass.renderMovie()
+    for (let i = 0; i < response.Search.length; i++) {
+      let movieTitle = response.Search[i].Title;
+      let movieType = response.Search[i].Type;
+      let releaseYear = response.Search[i].Year;
+      let moviePoster = response.Search[i].Poster;
+      let makeMovieClass = new Movie(movieTitle, movieType, releaseYear, moviePoster, this.displayModal);
+      let moviePosterParentDiv = makeMovieClass.renderMovie()
       $('.resultContainer').append(moviePosterParentDiv)
     }
   }

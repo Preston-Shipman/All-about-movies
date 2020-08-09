@@ -9,9 +9,9 @@ class News extends React.Component {
   }
 
   render() {
-    var divElem = $('<div>');
-    var anchorElem = $('<a>').attr({ 'href': this.data.url, 'target': '_blank' }).text('news');
-    var renderFinish = divElem.append(anchorElem);
+    let divElem = $('<div>');
+    let anchorElem = $('<a>').attr({ 'href': this.data.url, 'target': '_blank' }).text('news');
+    let renderFinish = divElem.append(anchorElem);
     return renderFinish;
   }
 }

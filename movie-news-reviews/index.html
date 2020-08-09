@@ -13,12 +13,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light text-justify">
-        <a class="navbar-brand text-center" href="#">Movie News & Reviews</a>
+    <nav class="navbar navbar-light bg-light text-center">
+        <a class="navbar-brand justify-content" href="#">Movie News & Reviews</a>
     </nav>
 
     <div class="searchDiv ">
-        <input type="text" id="searchInput" class="searchInput" placeholder="Search for a movie here">
+        <form>
+            <div class="form-group mb-4">
+                <input id="searchInput" type="email" placeholder="What're you searching for?"
+                            class="form-control form-control-underlined searchInput">
+                </div>
+            </form>
+        <!-- <input type="text" id="searchInput" class="searchInput" placeholder="Search for a movie here"> -->
         <button id="searchButton" class="searchButton button">Search</button>
         <button class="resetButton button">Reset</button>
     </div>

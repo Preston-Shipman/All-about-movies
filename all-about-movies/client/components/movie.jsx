@@ -19,7 +19,7 @@ class Movie extends React.Component {
   }
 
   renderMovie() {
-    var posterDiv = $('<div>').addClass('moviePoster').on('click', this.handleShowModal);
+    let posterDiv = $('<div>').addClass('moviePoster').on('click', this.handleShowModal);
     if (this.data.poster === 'N/A') {
       posterDiv = posterDiv.text(this.data.title).addClass('noPoster');
     } else {
