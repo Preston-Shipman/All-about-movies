@@ -131,26 +131,40 @@ body {
     background-color: #3B8BEB !important;
 }
 
-.barStyle {
+.mnr {
+    color: black;
+}
 
-        width: 100%;
-        padding: 12px 24px;
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
 
-        background-color: transparent;
-        transition: transform 250ms ease-in-out;
-        font-size: 14px;
-        line-height: 18px;
+.searchInput {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
 
-        color: #575756;
-        background-color: transparent;
-        background-repeat: no-repeat;
-        background-size: 18px 18px;
-        background-position: 95% center;
-        border-radius: 50px;
-        border: 1px solid #575756;
-        transition: all 250ms ease-in-out;
-        backface-visibility: hidden;
-        transform-style: preserve-3d;
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
 }
 @media screen and (max-width: 1005px) {
     .titleDiv{
