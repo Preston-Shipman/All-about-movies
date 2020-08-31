@@ -70,7 +70,9 @@ body {
 }
 
 .modalNewsBox {
-    height: 30%;
+    height: 37%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .posterRTBox {
@@ -129,6 +131,10 @@ body {
 
 .mnr {
     color: black;
+}
+
+li {
+    list-style-type: none !important;
 }
 
 @media screen and (max-width: 1005px) {

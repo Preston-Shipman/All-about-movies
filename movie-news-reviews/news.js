@@ -7,7 +7,7 @@ class News {
 
   render() {
     var divElem = $('<li>');
-    var anchorElem = $('<a>').attr({ 'href': this.data.url, 'target': '_blank' }).text('news').addClass("list-group-item list-group-item-action");
+    var anchorElem = $('<a>').attr({ 'href': this.data.url, 'target': '_blank' }).text('News').addClass("list-group-item");
     var renderFinish = divElem.append(anchorElem);
     return renderFinish;
   }
