@@ -1,6 +1,6 @@
 body {
     box-sizing: content-box;
-    background-color: #8590AA;
+    background-color: #c4d8e2;
 }
 
 .searchDiv {
@@ -8,16 +8,18 @@ body {
 }
 
 ::placeholder {
-    color: white;
+    color: black;
     opacity: 1;
 }
 
 #searchInput {
     text-align: left;
     padding: 10px;
-    border: 0;
+    border: 2px solid;
     border-radius: 3px;
     box-shadow: 0px, 8px, 15px;
+    background-color: #c4d8e2;
+    border-color: #ffddf4;
 }
 
 .noPoster {
@@ -32,6 +34,7 @@ body {
 
 .resultContainer {
     height: 70vh;
+    justify-content: center;
 }
 
 #movieInfoModal {
@@ -41,16 +44,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: antiquewhite;
+    background-color: #ffddf4
 }
-
-/* .modalHeader {
-    background-color: burlywood;
-} */
-
-/* .modalTitle, .d-inline-block {
-    padding-bottom: 15px;
-} */
 
 .modalCloseButton {
     float: right;
@@ -73,6 +68,7 @@ body {
     height: 37%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    background-color: #ffddf4 !important;
 }
 
 .posterRTBox {
@@ -95,7 +91,7 @@ body {
     background-position: center;
 }
 
-.modalMoviePoster, .releaseAndTypeBox, .modalReaseDate, .modalMovieType {
+.modalMoviePoster, .releaseAndTypeBox, .modalReleaseDate, .modalMovieType {
     width: 100%;
 }
 
@@ -131,11 +127,31 @@ body {
 }
 
 .navbar {
-    background-color: #3B8BEB !important;
+    background-color: #ffddf4 !important;
 }
 
 .mnr {
     color: black;
+}
+
+.searchButton {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border: 2px solid;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: black;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #c4d8e2;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    border-color: #ffddf4;
+
 }
 
 li {
