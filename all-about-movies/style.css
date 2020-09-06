@@ -1,0 +1,187 @@
+body {
+    box-sizing: content-box;
+    background-color: #c4d8e2;
+}
+
+.searchDiv {
+    height: 10vh;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+#searchInput {
+    text-align: left;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 3px;
+    box-shadow: 0px, 8px, 15px;
+    background-color: #c4d8e2;
+    border-color: #ffddf4;
+}
+
+.noPoster {
+    background-image: url('./assets/JC.jpeg');
+    color: yellowgreen;
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+}
+
+.resultContainer {
+    height: 70vh;
+    justify-content: center;
+}
+
+#movieInfoModal {
+    position: fixed;
+    width: 40vh;
+    height: 60vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffddf4
+}
+
+.modalCloseButton {
+    float: right;
+}
+
+.modalBody {
+    width: 100%;
+    height: 89%;
+}
+
+.modalRow {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1px;
+}
+
+.modalNewsBox {
+    height: 37%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #ffddf4 !important;
+}
+
+.posterRTBox {
+    width: 40%;
+}
+
+.modalReviewsBox {
+    width: 60%;
+    padding-left: 5px;
+}
+
+.modalHeader {
+    padding-bottom: 35px
+}
+
+.modalMoviePoster {
+    height: 79%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.modalMoviePoster, .releaseAndTypeBox, .modalReleaseDate, .modalMovieType {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.titleDiv {
+    text-align: center;
+    height: 15vh;
+    font-size: 13vh;
+    padding-bottom: 3vh;
+}
+
+.searchDiv {
+    text-align: center;
+}
+
+.resultContainer {
+    height: 70vh;
+    padding-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.moviePoster {
+    height: 45%;
+    width: 16%;
+    margin: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    background-color: #ffddf4 !important;
+}
+
+.mnr {
+    color: black;
+}
+
+.searchButton {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border: 2px solid;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: black;
+    text-align:center;
+    transition: all 0.2s;
+    background-color: #c4d8e2;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    border-color: #ffddf4;
+
+}
+
+li {
+    list-style-type: none !important;
+}
+
+@media screen and (max-width: 1005px) {
+    .titleDiv{
+        font-size: 7vh;
+        height: 11vh;
+    }
+}
+
+@media screen and (max-width: 701px) {
+    .titleDiv{
+        font-size: 5vh;
+        height: 7vh;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .moviePoster{
+        height: 50%;
+        width: 31%;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .titleDiv{
+        font-size: 3vh;
+        height: 7vh;
+    }
+}
