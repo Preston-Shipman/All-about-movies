@@ -16,7 +16,7 @@ class MovieResult {
     getMovieInfo() {
         var ajaxConfigObject = {
             dataType: 'json',
-            url: 'http://www.omdbapi.com/?i=tt3896198&apikey=6c2d937e',
+            url: 'https://www.omdbapi.com/?i=tt3896198&apikey=6c2d937e',
             method: 'GET',
             data: {
                 s: $('#searchInput').val()
