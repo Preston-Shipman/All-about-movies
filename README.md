@@ -18,3 +18,6 @@ Allows users to input a movie title and find news and reviews regarding the movi
 - Andrew Song https://github.com/andrewhksong
 - Anastasia Canlas https://github.com/a-canlas
 - Alex Aranda https://github.com/aaranda82
+
+# Example
+![](all-about-movies.gif)
