@@ -69,16 +69,16 @@ class MovieResult {
         console.log('Error with Review GET: ', error);
     }
 
-    resetInput(){
+    resetInput() {
         $('#searchInput').val("");
         $('.resultContainer').empty();
     }
 
-    closeModal(){
+    closeModal() {
         $('#movieInfoModal').addClass('hidden');
     }
 
-    displayModal(){
+    displayModal() {
         $('#movieInfoModal').removeClass('hidden');
         this.getMovieReviews();
         this.getNewsInfo();

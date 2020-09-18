@@ -151,7 +151,11 @@ body {
     padding-top: 11px;
     padding-bottom: 9px;
     border-color: #ffddf4;
+}
 
+.toast-header {
+    color: black;
+    background-color: #c4d8e2;
 }
 
 li {
