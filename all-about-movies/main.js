@@ -8,5 +8,4 @@ function initializeApp(){
             $('.toast').toast('show')
         }
     })
-    // $('.toast').toast(data - delay = "5000")
 }
