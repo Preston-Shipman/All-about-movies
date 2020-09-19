@@ -7,5 +7,8 @@ function initializeApp(){
         if (!$(".searchInput").val()) {
             $('.toast').toast('show')
         }
+        else if ($(".searchInput").val()) {
+            $('.toast').toast('hide')
+        }
     })
 }
