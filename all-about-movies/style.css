@@ -1,6 +1,6 @@
 body {
     box-sizing: content-box;
-    background-color: #c4d8e2;
+    background-color: white;
 }
 
 .searchDiv {
@@ -19,7 +19,7 @@ body {
     border-radius: 3px;
     box-shadow: 0px, 8px, 15px;
     background-color: #c4d8e2;
-    border-color: #ffddf4;
+    border-color: black;
     margin-top: 7px;
 }
 
@@ -45,7 +45,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffddf4
+    background-color: white;
+    border: #CDCDCD 2px solid;
+
 }
 
 .modalCloseButton {
@@ -69,7 +71,7 @@ body {
     height: 37%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    background-color: #ffddf4 !important;
+    background-color: white !important;
 }
 
 .posterRTBox {
@@ -128,7 +130,7 @@ body {
 }
 
 .navbar {
-    background-color: #ffddf4 !important;
+    background-color: #CDCDCD !important;
 }
 
 .mnr {
@@ -151,12 +153,12 @@ body {
     background-color: #c4d8e2;
     padding-top: 11px;
     padding-bottom: 9px;
-    border-color: #ffddf4;
+    border-color: black;
 }
 
 .toast-header {
     color: black;
-    background-color: #ffddf4;
+    background-color: #CDCDCD;
 }
 
 .centered {
