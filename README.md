@@ -20,7 +20,7 @@ Allows users to input a movie title and find news and reviews regarding the movi
 - Alex Aranda https://github.com/aaranda82
 
 # Example
-![](all-about-movies.gif)
+![](allAboutMovies.gif)
 
 # Live Link
 https://all-about-movies.prestonshipman.com/
