@@ -1,4 +1,4 @@
-# All-about-movie
+# All-about-movies
 
 A app that utilizes New York Times and OMDb apis to search for movies.
 Allows users to input a movie title and find news and reviews regarding the movie.
